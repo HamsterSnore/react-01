@@ -1,3 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("fonts/JetBrainsMono-Thin.woff2") format("truetype");
+}
+
+.color-light-grey { 
+	background: #ececec; 
+}
+	
+.color-light-blue { 
+	background: #9fd3c7; 
+}
+
+.color-medium-blue { 
+	background: #385170; 
+}
+
+.color-dark-blue { 
+	background: #142d4c; 
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,6 +33,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'JetBrains Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
