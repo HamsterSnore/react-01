@@ -53,7 +53,6 @@ class Dashboard extends React.Component{
         }
         let hours = "";
         let minutes = "";
-        let seconds = totalSeconds;
         if (totalSeconds >= 3600){
             hours = Math.floor(totalSeconds/3600);
             totalSeconds -= hours * 3600;
