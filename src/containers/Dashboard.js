@@ -80,7 +80,7 @@ class Dashboard extends React.Component{
                         <h2>Horas acreditadas esta semana: 10 h</h2>
                     </div>
                     <div className="flex flex-col">
-                        <a className="border px-8 py-3">Proyectos</a>
+                        <h6 className="border px-8 py-3">Proyectos</h6>
                     </div>
                 </div>
                 <div className="border p-4">
