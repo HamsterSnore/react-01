@@ -1,16 +1,13 @@
 import ScheduleDayColumn from '../components/schedule-day-column'
 function Home() {
     return (
-        <div className="container min-h-screen p-8 text-lg flex justify-center">
-            {/* <div className="flex p-8 columns-auto">
-                <ScheduleDayColumn dayName="Monday"/>
-                <ScheduleDayColumn dayName="Tuesday"/>
-                <ScheduleDayColumn dayName="Wednesday"/>
-                <ScheduleDayColumn dayName="Thursday"/>
-                <ScheduleDayColumn dayName="Friday"/>
-                <ScheduleDayColumn dayName="Saturday"/>
-                <ScheduleDayColumn dayName="Sunday"/>
-            </div> */}
+        <div className="h-full w-2/3 flex-col items-end p-10 text-white text-6xl">
+            <h1 className='mb-8'>
+                Working or studying ?
+            </h1>
+            <h1>
+                Track your tasks the easy way
+            </h1>
         </div>
     );
 }

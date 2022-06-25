@@ -9,28 +9,43 @@
 
 #root{
   background: linear-gradient(135deg, #142D4C, #055061);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'JetBrains Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;;
+  font-family: 'JetBrains Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  min-height: 100vh;
 }
 
-.color-light-grey { 
+.bg-light-grey { 
 	background: #ececec; 
 }
 	
-.color-light-blue { 
+.bg-light-blue { 
 	background: #9fd3c7; 
 }
 
-.color-medium-blue { 
+.bg-medium-blue { 
 	background: #385170; 
 }
 
-.color-dark-blue { 
+.bg-dark-blue { 
 	background: #142d4c; 
 }
+
+.text-light-grey { 
+	color: #ececec; 
+}
+	
+.text-light-blue { 
+	color: #9fd3c7; 
+}
+
+.text-medium-blue { 
+	color: #385170; 
+}
+
+.text-dark-blue { 
+	color: #142d4c; 
+}
+
+
 
 nav{
   background-color: green;
