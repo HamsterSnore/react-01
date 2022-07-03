@@ -5,6 +5,7 @@ import Home from './containers/Home';
 import Navbar from './containers/Navbar';
 import AboutUs from './containers/AboutUs';
 import Dashboard from './containers/Dashboard';
+import Tasks from './containers/Tasks';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ root.render(
       <Route path='/' element={<Home/>} /> 
       <Route path='about-us' element={<AboutUs/>} />
       <Route path='dashboard' element={<Dashboard/>} />
+      <Route path='tasks' element={<Tasks/>} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

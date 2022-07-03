@@ -7,10 +7,22 @@
   src: url("fonts/JetBrainsMono-Thin.woff2") format("truetype");
 }
 
+@font-face {
+  font-family: "JetBrains Mono Bold";
+  src: url("fonts/JetBrainsMono-Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: "JetBrains Mono Regular";
+  src: url("fonts/JetBrainsMono-Regular.woff2") format("truetype");
+}
+
 #root{
   background: linear-gradient(135deg, #142D4C, #055061);
   font-family: 'JetBrains Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .bg-light-grey { 
@@ -45,7 +57,17 @@
 	color: #142d4c; 
 }
 
+.font-bold {
+  font-family: 'JetBrains Mono Bold';
+}
 
+.font-regular {
+  font-family: 'JetBrains Mono Regular';
+}
+
+.h-vh-85 {
+  height: 85vh;
+}
 
 nav{
   background-color: green;

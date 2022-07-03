@@ -68,7 +68,7 @@ class Dashboard extends React.Component{
 
     render(){
         return(
-            <div className="text-white flex flex-col w-full h-full justify-between p-10">
+            <div className="text-white flex flex-col w-full h-full justify-between align-middle p-10 my-auto">
                 <div className="flex flex-row">
                     <h1 className="text-xl border px-8 py-3 w-min rounded-t-md bg-medium-blue text-light-grey">Dashboard</h1>
                     <h1 className="text-xl border px-8 py-3 w-min border-l-0 rounded-t-md">Proyects</h1>
