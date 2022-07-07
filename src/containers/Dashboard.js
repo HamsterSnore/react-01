@@ -68,11 +68,12 @@ class Dashboard extends React.Component{
 
     render(){
         return(
-            <div className="text-white flex flex-col w-full h-full justify-between align-middle p-10 my-auto">
+            <div className="text-white flex flex-col w-full h-full justify-between align-middle my-auto">
                 <div className="flex flex-row">
                     <h1 className="text-xl border px-8 py-3 w-min rounded-t-md bg-medium-blue text-light-grey">Dashboard</h1>
                     <h1 className="text-xl border px-8 py-3 w-min border-l-0 rounded-t-md">Proyects</h1>
-                    <h1 className="text-xl border px-8 py-3 w-min border-l-0 rounded-t-md">Tasks</h1>
+                    <h1 className="text-xl border px-8 py-3 w-min border-l-0 rounded-t-md">
+                        <a href="/tasks">Tasks</a></h1>
                 </div>
                 <div className="border p-4 flex flex-row justify-between">
                     <div className="flex-col">

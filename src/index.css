@@ -57,6 +57,10 @@
 	color: #142d4c; 
 }
 
+.border-color-light-blue{
+  border-color: #9fd3c7 ;
+}
+
 .font-bold {
   font-family: 'JetBrains Mono Bold';
 }
